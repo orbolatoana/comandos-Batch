@@ -17,14 +17,14 @@ mkdir
 ```
 Cria um diretório ou um subdiretório. As extensões de comando, que são habilitadas por padrão, permitem que você use um único comando mkdir para criar diretórios intermediários em um caminho especificado.
 
-> Exemplo de uso: _mkdir ''nome do diretótio''_
+ Exemplo de uso: _mkdir ''nome do diretótio''_
 
 ```
 rmdir
 ```
 o comando rmdir exclui um diretório ou subdiretório. Com esse comando, você especifica qual é o local e a pasta a ser eliminada (incluindo seus arquivos).
 
-> Exemplo de uso: _rmdir ''nome do diretótio''_
+ Exemplo de uso: _rmdir ''nome do diretótio''_
 
 ```
 cd
@@ -32,41 +32,55 @@ cd
 
 O comando cd é usado para trocar de um diretório para outro.
 
-> Exemplo de uso: _cd ''nome do diretótio''_
+ Exemplo de uso: _cd ''nome do diretótio''_
 
 ```
 dir
 ```
 Exibe uma lista de arquivos e pastas do diretório atual.
 
-> Exemplo de uso: _dir_
+ Exemplo de uso: _dir_
 
 ```
 type
 ```
 Esse comando serve para exibir o conteúdo dentro de um arquivo, seja ele um arquivo Word ou txt, por exemplo.
 
-> Exemplo de uso: _type ''nome do diretótio''_
+ Exemplo de uso: _type ''nome do diretótio''_
 
 ```
 echo 
 ```
 Exibe mensagens ou liga ou desliga o recurso de eco de comando. Se usado sem parâmetros, echo exibirá a configuração de eco atual.
-
-> Exemplo de uso: Para exibir a configuração de echo atual, digite: _echo_
+ 
+ Exemplo de uso: Para exibir a configuração de echo atual, digite: _echo_
 
 ```
 rename
 ```
 Com esse comando, você pode renomear arquivos ou pastas - basta especificar o nome atual do arquivo/pasta e o novo nome desejado.
 
-> Exemplo de uso: Para alterar todas as extensões de nome de arquivo .txt no diretório atual para .doc extensões, digite: 
-_rename *.txt *.doc_
+ Exemplo de uso: Para alterar todas as extensões de nome de arquivo .txt no diretório atual para .doc extensões, digite: _rename *.txt *.doc_
 
 ```
 cls
 ```
-> Exemplo de uso: Para limpar todas as informações exibidas na janela do Prompt de Comando e retornar a uma janela em branco, digite: _cls_
+Limpa a janela do Prompt de Comando.
 
+ Exemplo de uso: Para limpar todas as informações exibidas na janela do Prompt de Comando e retornar a uma janela em branco, digite: _cls_
+
+```
+copy
+```
+Copia um ou mais arquivos de um local para o outro.
+
+ Exemplo de uso: Para copiar um arquivo chamado memo.doc para letter.doc na unidade atual e garantir que um caractere de fim de arquivo (CTRL+Z) esteja no final do arquivo copiado, digite: _copy memo.doc letter.doc /a_
+
+```
+move
+```
+Move um ou mais arquivos de um diretório para outro.
+
+ Exemplo de uso: Para mover todos os arquivos com a extensão .xls do diretório \Data para o diretório \Second_Q\Reports, digite: _move \data\*.xls \second_q\reports\_
 
 
