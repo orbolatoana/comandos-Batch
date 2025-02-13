@@ -83,4 +83,5 @@ Move um ou mais arquivos de um diretório para outro.
 
  Exemplo de uso: Para mover todos os arquivos com a extensão .xls do diretório \Data para o diretório \Second_Q\Reports, digite: _move \data\*.xls \second_q\reports\_
 
+--- 
 
